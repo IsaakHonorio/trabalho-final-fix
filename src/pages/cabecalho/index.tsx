@@ -16,39 +16,47 @@ const Cabecalho: FC = () => {
                         </span>
                     </span>
                     <p/>
-                    <nav id="instrumentos" className=" container-fluid left col-3 ">
-                    
+                    <ul id="instrumentos" className=" container-fluid left col-3 ">
+
                         <nav className="col-1 d-inline" /> 
                         
-                        <a href="./" className="link-cab">
-                            Instrumentos
-                        </a>
+                        <li>
+                            <a href="./" className="link-cab">
+                                Instrumentos
+                            </a>
+                        </li>
                         
                         <nav className="d-inline">|</nav>
                         
-                        <a href="./git" className="link-cab ">
-                            Github
-                        </a>
+                        <li>
+                            <a href="./git" className="link-cab ">
+                                Github
+                            </a>
+                        </li>
                         
                         <nav className="d-inline"> | </nav>
                         
-                        <a href="./cs" className="link-cab ">
-                            Cursos 
-                        </a>
-
+                        <li>
+                            <a href="./cs" className="link-cab ">
+                                Cursos 
+                            </a>
+                        </li>
                         <nav className="d-inline"> | </nav>
                         
-                        <a href="./saiba" className="link-cab ">
-                            Saiba mais 
-                        </a>
-                                        
-                    </nav>
+                        <li>
+                            <a href="./saiba" className="link-cab ">
+                                Saiba mais 
+                            </a>
+                        </li>                
+                    </ul>
                     <div className="col-lg-4"/>
-                    <input type="text" className="col-3 dis rounds" placeholder="Procure algo de seu interesse: " />
-                    <button className="container roundes lup d-inline">
-                        <img className="imag" alt="search" src={Lupa} />
-                    </button>
-            </div>
+                        <div id="quest">
+                            <input type="text" className="col-3 dis rounds" placeholder="Procure algo de seu interesse: " />
+                            <button className="container roundes lup d-inline">
+                                <img className="imag" alt="search" src={Lupa} />
+                            </button>
+                        </div>
+                    </div>
             {routerConfig.map((value, key) => {
                 return <Route 
                     path={value.path} 
