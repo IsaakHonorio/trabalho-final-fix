@@ -1,0 +1,64 @@
+.alo {
+    margin-bottom: 50px;
+    height: 200px;
+    border-radius: 10px;  
+}
+.ima {
+    height: 100%;
+    width: 100%;
+}
+.imager {
+    height: 200px;
+    border-radius: 10px 0px 0px 10px;
+    margin-bottom: 30px;    
+    background-color: rgb(255, 255, 255);
+    border: 3px; 
+    border-style: groove;
+    border-right: none; 
+    border-color:rgb(83, 83, 83);
+}
+.borderes {
+    height: 200px;
+    border-radius: 0px 10px 10px 0px;
+    margin-bottom: 30px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.452);
+    border: 3px; 
+    border-style: groove;
+    border-left: hidden;
+    border-color:rgb(83, 83, 83);
+}
+.ls {
+    margin-bottom: 60px;
+}
+.spaces {
+    height: 150px;
+}
+.links {
+    // margin-top: 50px;
+    padding-top: 20px;
+    padding-left: -50px;
+    font-size: 25px;
+    font-style: italic;
+    color:rgb(255, 255, 255);
+    text-decoration-line: none;
+    display: inline-block;
+}
+.desc {
+    // margin-top: 100px;
+    display: block;
+    font-size: 20px;
+    color:rgb(0, 0, 0)
+}
+.valores {
+    padding: 30px 0px 0px 600px;
+    color:rgb(0, 0, 0);
+    &-value {
+        color: rgb(77, 143, 39);
+        padding-left: 7px;
+    }
+}
+.end {
+    margin-bottom: 90px;
+    color: rgb(59, 59, 59);
+}
