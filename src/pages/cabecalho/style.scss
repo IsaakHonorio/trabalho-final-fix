@@ -59,6 +59,9 @@
         visibility: visible;
     }   
 }
+li {
+    list-style: none;
+}
 @media screen and (max-width:768px) {
     .estilo {
         font-size: medium;
