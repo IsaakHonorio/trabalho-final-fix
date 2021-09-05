@@ -1,8 +1,22 @@
 import react, {FC} from "react";
-import './style.scss'
+import ReactPlayer from "react-player";
+import './style.scss';
+import Video from "../cabecalho/videos/rec.mp4";
 
 const API: FC = () => {
     return <>
+        <div className="video-background">
+                <ReactPlayer 
+                url={Video}
+                width="100%"
+                height="100%"
+                controls={false}
+                loop={true}
+                muted={true}
+                playing={true}
+                playsinline={true}
+                />
+            </div>
         <div className="hg-hd">
             Nossa Empresa...<br/>
             Surgiu de uma ideia totalmente aleatoria, porem que já tinha sido pensado mas nunca realizado.<br/>

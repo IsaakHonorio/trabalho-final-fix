@@ -4,6 +4,7 @@ import {Route} from 'react-router-dom'
 import routerConfig from '../../routerConfig'
 import Github from "../github";
 import Lupa from "../../imagens do projeto/main_images/lupa.png";
+import Menu from "../../imagens do projeto/main_images/menu.jpg"
 
 const Cabecalho: FC = () => {
     return <>
@@ -56,7 +57,7 @@ const Cabecalho: FC = () => {
                             </button>
                         </nav>
                     <nav id="botao" className="icon--cab">
-                        <img src="https://img.icons8.com/color/48/000000/top-menu.png"/>
+                        <img alt="menu" src={Menu} className="jedi--cab"/>
                     </nav>
                 </div>
             {routerConfig.map((value, key) => {

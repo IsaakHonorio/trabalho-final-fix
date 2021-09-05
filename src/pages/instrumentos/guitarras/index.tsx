@@ -1,11 +1,11 @@
 import react, {FC} from "react";
 import ReactPlayer from "react-player";
 import './style.scss';
-import Viola1 from "./image/viola1.jpg";
-import Viola2 from "./image/viola2.jpg";
-import Viola3 from "./image/viola3.jpg";
-import Viola4 from "./image/viola4.jpg";
-import Viola5 from "./image/viola5.jpg";
+import Guita1 from "../../../imagens do projeto/ads_guitarra/guita1.jpg";
+import Guita2 from "../../../imagens do projeto/ads_guitarra/guita2.jpg";
+import Guita3 from "../../../imagens do projeto/ads_guitarra/guita3.jpg";
+import Guita4 from "../../../imagens do projeto/ads_guitarra/guita4.jpg";
+import Guita5 from "../../../imagens do projeto/ads_guitarra/guita5.jpg";
 import Video from "../../cabecalho/videos/Guitarres.mp4";
 
 const Guitarras: FC = () => {
@@ -27,18 +27,18 @@ const Guitarras: FC = () => {
                     <div className="col-12 spaces" />
                     
                     <div className="col-2 imager">
-                        <a href="https://www.multisom.com.br/violao-artistico-strinberg-sa200c-eletrico-cordas-de-aco-com-afinador-ms-p1090382?pp=/44.4469/&gclid=CjwKCAjw092IBhAwEiwAxR1lRsqkFDVcMb9O1btalZICkvFsrwdEVs-AtAnKL9McJbTqCtR5Zs6gQhoC1eEQAvD_BwE">
-                            <img  alt="Violão 1" className="ima" src= {Viola1} />
+                        <a href="https://www.americanas.com.br/produto/93538421?opn=YSMESP&sellerid=33379575000116&cor=Laranja%20escuro">
+                            <img  alt="Guita 1" className="ima" src= {Guita1} />
                         </a>
                     </div>
                     <div className="col-9 borderes">
-                        <a href="https://www.multisom.com.br/violao-artistico-strinberg-sa200c-eletrico-cordas-de-aco-com-afinador-ms-p1090382?pp=/44.4469/&gclid=CjwKCAjw092IBhAwEiwAxR1lRsqkFDVcMb9O1btalZICkvFsrwdEVs-AtAnKL9McJbTqCtR5Zs6gQhoC1eEQAvD_BwE">
+                        <a href="https://www.americanas.com.br/produto/93538421?opn=YSMESP&sellerid=33379575000116&cor=Laranja%20escuro">
                             <span className="links ">
-                                Violão Strinberg SA200C Elétrico Cordas de Aço com Afinador Escuro
+                                Guitarra Strinberg Les Paul Lps 230 SB
                             </span>
                         </a>
                         <div className="desc">
-                                Violão com otima durabilidade e tonalidade
+                            Guitarra com otima durabilidade e tonalidade
                         </div>
                         <div className="valores" >
                             <h3>
@@ -52,18 +52,18 @@ const Guitarras: FC = () => {
 
 
                     <div className="col-2 imager">
-                        <a href="https://www.multisom.com.br/violao-artistico-strinberg-sa200c-eletrico-cordas-de-aco-com-afinador-ms-p1090382?pp=/44.4469/&gclid=CjwKCAjw092IBhAwEiwAxR1lRsqkFDVcMb9O1btalZICkvFsrwdEVs-AtAnKL9McJbTqCtR5Zs6gQhoC1eEQAvD_BwE">
-                            <img  alt="Violão 2" className="ima" src= {Viola2} />
+                        <a href="https://www.multisom.com.br/guitarra-stratocaster-strinberg-sts-100-ms-p1087243?pp=/44.2285/&gclid=CjwKCAjw3_KIBhA2EiwAaAAlit6KJLraQbyLW0Ky2V9od9xYwrcratKAPdsKbrup4CkcwoB1z9Tg4hoC4ikQAvD_BwE">
+                            <img  alt="Guitarra 2" className="ima" src= {Guita2} />
                         </a>
                     </div>
                     <div className="col-9 borderes">
-                        <a href="https://www.multisom.com.br/violao-artistico-strinberg-sa200c-eletrico-cordas-de-aco-com-afinador-ms-p1090382?pp=/44.4469/&gclid=CjwKCAjw092IBhAwEiwAxR1lRsqkFDVcMb9O1btalZICkvFsrwdEVs-AtAnKL9McJbTqCtR5Zs6gQhoC1eEQAvD_BwE">
+                        <a href="https://www.multisom.com.br/guitarra-stratocaster-strinberg-sts-100-ms-p1087243?pp=/44.2285/&gclid=CjwKCAjw3_KIBhA2EiwAaAAlit6KJLraQbyLW0Ky2V9od9xYwrcratKAPdsKbrup4CkcwoB1z9Tg4hoC4ikQAvD_BwE">
                             <span className="links ">
-                                Violão Strinberg SA200C Elétrico Cordas de Aço com Afinador Amadeirada
+                                Guitarra Stratocaster Strinberg STS-100
                             </span>
                         </a>
                         <div className="desc">
-                                Violão com otima durabilidade e tonalidade
+                                Guitarra com otima durabilidade e tonalidade
                         </div>
                         <div className="valores" >
                             <h3>
@@ -77,18 +77,18 @@ const Guitarras: FC = () => {
 
 
                     <div className="col-2 imager">
-                        <a href="https://www.multisom.com.br/violao-artistico-strinberg-sa200c-eletrico-cordas-de-aco-com-afinador-ms-p1090382?pp=/44.4469/&gclid=CjwKCAjw092IBhAwEiwAxR1lRsqkFDVcMb9O1btalZICkvFsrwdEVs-AtAnKL9McJbTqCtR5Zs6gQhoC1eEQAvD_BwE">
-                            <img  alt="Violão 3" className="ima" src= {Viola3} />
+                        <a href="https://www.multisom.com.br/guitarra-les-paul-strinberg-lps-200-ms-p1087231?pp=/44.4253/">
+                            <img  alt="Guitarra 3" className="ima" src= {Guita3} />
                         </a>
                     </div>
                     <div className="col-9 borderes">
-                        <a href="https://www.multisom.com.br/violao-artistico-strinberg-sa200c-eletrico-cordas-de-aco-com-afinador-ms-p1090382?pp=/44.4469/&gclid=CjwKCAjw092IBhAwEiwAxR1lRsqkFDVcMb9O1btalZICkvFsrwdEVs-AtAnKL9McJbTqCtR5Zs6gQhoC1eEQAvD_BwE">
+                        <a href="https://www.multisom.com.br/guitarra-les-paul-strinberg-lps-200-ms-p1087231?pp=/44.4253/">
                             <span className="links ">
-                                Violão Strinberg SA200C Elétrico Cordas de Aço com Afinador Amaderada Clara
+                                Guitarra Les Paul Strinberg LPS-200 Vermelho
                             </span>
                         </a>
                         <div className="desc">
-                                Violão com otima durabilidade e tonalidade
+                                Guitarra com otima durabilidade e tonalidade
                         </div>
                         <div className="valores" >
                             <h3>
@@ -102,18 +102,18 @@ const Guitarras: FC = () => {
 
 
                     <div className="col-2 imager">
-                        <a href="https://www.multisom.com.br/violao-yamaha-slg200n-silent-vazado-eletrico-cordas-nylon-com-afinador-e-bag-ms-p1090178?pp=/44.2895/&gclid=CjwKCAjw092IBhAwEiwAxR1lRuuo1xCJSaMOLPlUApGluksnxOBcVz9QRbc7Y_dZdd3gz-ra62xVPhoCnjoQAvD_BwE">
-                            <img  alt="Violão 4" className="ima" src= {Viola4} />
+                        <a href="https://www.multisom.com.br/guitarra-les-paul-strinberg-lps-200-ms-p1087231?pp=/44.4253/https://www.multisom.com.br/guitarra-les-paul-strinberg-lps-200-ms-p1087231?pp=/44.4253/">
+                            <img  alt="Guitarra 4" className="ima" src= {Guita4} />
                         </a>
                     </div>
                     <div className="col-9 borderes">
-                        <a href="https://www.multisom.com.br/violao-yamaha-slg200n-silent-vazado-eletrico-cordas-nylon-com-afinador-e-bag-ms-p1090178?pp=/44.2895/&gclid=CjwKCAjw092IBhAwEiwAxR1lRuuo1xCJSaMOLPlUApGluksnxOBcVz9QRbc7Y_dZdd3gz-ra62xVPhoCnjoQAvD_BwE">
+                        <a href="https://www.multisom.com.br/guitarra-les-paul-strinberg-lps-200-ms-p1087231?pp=/44.4253/https://www.multisom.com.br/guitarra-les-paul-strinberg-lps-200-ms-p1087231?pp=/44.4253/">
                             <span className="links ">
-                                Violão Acustico Aço Azul La-40e Bl
+                                Guitarra Les Paul Strinberg LPS-200 Amadeirada
                             </span>
                         </a>
                         <div className="desc">
-                                Violão com otima durabilidade e tonalidade
+                                Guitarra com otima durabilidade e tonalidade
                         </div>
                         <div className="valores" >
                             <h3>
@@ -127,18 +127,18 @@ const Guitarras: FC = () => {
 
 
                     <div className="col-2 imager ">
-                        <a href="https://www.americanas.com.br/produto/1611919948?opn=YSMESP&sellerid=19789633000159">
-                            <img  alt="Violão 5" className="ima" src= {Viola5} />
+                        <a href="https://www.multisom.com.br/guitarra-les-paul-strinberg-lps-200-ms-p1087231?pp=/44.4253/">
+                            <img  alt="Guitarra 5" className="ima" src= {Guita5} />
                         </a>
                     </div>
                     <div className="col-9 borderes">
-                        <a href="https://www.americanas.com.br/produto/1611919948?opn=YSMESP&sellerid=19789633000159">
+                        <a href="https://www.multisom.com.br/guitarra-les-paul-strinberg-lps-200-ms-p1087231?pp=/44.4253/">
                             <span className="links ">
-                                Violão Yamaha SLG200N Silent Vazado Elétrico Cordas de Nylon com Afinador e Bag
+                                Guitarra Les Paul Strinberg LPS-200 Preto
                             </span>
                         </a>
                         <div className="desc">
-                                Violão com otima durabilidade e tonalidade
+                                Guitarra com otima durabilidade e tonalidade
                         </div>
                         <div className="valores" >
                             <h3>
@@ -154,6 +154,8 @@ const Guitarras: FC = () => {
                             -"Não tem mais nada por aqui"-
                         </h5>
                     </div>
+                    <p/>
+                    <p/>
 
                 </div>
             </div>

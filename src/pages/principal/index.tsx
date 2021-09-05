@@ -21,7 +21,7 @@ const Principal: FC = () => {
         {name: "Edição", photo: Edicao, link: "./edit", write: "Edição"},
         {name: "Gravação", photo: Gravacao, link:"./rec", write: "Gravação"},
         {name: "Sopro", photo: Sopro, link: "./sopro", write: "Sopro"},
-        {name: "Mais", photo: Mais, lank: "./mais", write:"Mais"},
+        {name: "Mais", photo: Mais, link: "./mais", write:"Mais"},
     ];
     
     return <>
