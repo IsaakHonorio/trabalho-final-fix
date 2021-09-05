@@ -1,17 +1,43 @@
 .imagem {
-    margin-left: 45px;
-    margin-right: 15px;
-    margin-bottom: -70px;
-    margin-top: 150px;
     width: 250px;
     height:175px; 
     background-color: rgb(255, 255, 255);
-    position: relative;
+}
+.order--mean {
+    height: 100%;
+    width: 100%;
+    margin-left: -100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.anima {
+    transition-duration: 1s;
+    &:hover {
+        position: relative;
+        height: 25%;
+        width: 25%;
+        z-index: 50;
+        overflow:visible
+    }
 }
 .round {
         border-radius: 20px;
 }
-//
+.video-background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    z-index: -1;
+    object-fit: cover;
+  }
 .space {
     width: 30px;
     display: inline;
@@ -26,15 +52,7 @@
 .link-mean-div {
     z-index: 2;
 }
-.anima {
-    transition-duration: 1s;
-    position: relative fixed;
-    &:hover {
-        width: 25%;
-        height: 25%;
-        z-index: 1;
-    }
-}
+
 .link-mean {
     text-decoration: none;
     font-style: italic;

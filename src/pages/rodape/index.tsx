@@ -4,7 +4,7 @@ import './style.scss'
 const Rodape: FC = () => {
     const [nome, setNome] = useState('Isaak');
     
-    return <div className="row border rodape rodape-bg fixed-bottom">
+    return <div className="row border rodape rodape-bg fixed-bottom fs-rp">
                 <span> Copyright@{new Date().getFullYear()}</span> 
             
                  <div className="text-center">

@@ -1,13 +1,27 @@
 import react, {FC} from "react";
+import ReactPlayer from "react-player";
 import './style.scss';
 import Viola1 from "./image/viola1.jpg";
 import Viola2 from "./image/viola2.jpg";
 import Viola3 from "./image/viola3.jpg";
 import Viola4 from "./image/viola4.jpg";
 import Viola5 from "./image/viola5.jpg";
+import Video from "../../cabecalho/videos/Guitarist.mp4";
 
 const Viola: FC = () => {
     return <>
+        <div className="video-background">
+                <ReactPlayer 
+                url={Video}
+                width="100%"
+                height="100%"
+                controls={false}
+                loop={true}
+                muted={true}
+                playing={true}
+                playsinline={true}
+                />
+            </div>
             <div className="container">
                 <div className="row">
                     <div className="col-12 spaces" />

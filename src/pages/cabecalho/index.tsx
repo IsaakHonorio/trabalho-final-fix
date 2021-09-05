@@ -9,7 +9,7 @@ const Cabecalho: FC = () => {
     return <>
             <div className="container ">
                 <div className="row navbar navbar-dark fixed-top">
-                    <span className="col-1 estilo-big left d-inline">
+                    <span id="name" className="col-1 estilo-big left d-inline">
                         M
                         <span className="estilo">
                             Place
@@ -49,14 +49,16 @@ const Cabecalho: FC = () => {
                             </a>
                         </li>                
                     </ul>
-                    <div className="col-lg-4"/>
-                        <div id="quest">
-                            <input type="text" className="col-3 dis rounds" placeholder="Procure algo de seu interesse: " />
-                            <button className="container roundes lup d-inline">
+                        <nav id="quest" className="col-8 ">
+                            <input type="text" className="col-5 rounds" placeholder="Procure algo de seu interesse: " />
+                            <button className="container roundes right--cab lup">
                                 <img className="imag" alt="search" src={Lupa} />
                             </button>
-                        </div>
-                    </div>
+                        </nav>
+                    <nav id="botao" className="icon--cab">
+                        <img src="https://img.icons8.com/color/48/000000/top-menu.png"/>
+                    </nav>
+                </div>
             {routerConfig.map((value, key) => {
                 return <Route 
                     path={value.path} 

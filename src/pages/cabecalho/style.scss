@@ -1,66 +1,68 @@
-.cabecalho {
-    text-align: center;
 
-    &-link {
-        padding-left: 10 px;
-        padding-right: 10 px;
+@media (min-width:769px) and (max-width:1580px) {
+    .estilo {
+        font-size: large;
+        
+        &-big {
+            font-size: xx-large;
+            font-weight: 500;
+            color: rgb(114, 114, 114);
+        }
     }
-}
-.estilo {
-    font-size: large;
-    
-    &-big {
-        font-size: xx-large;
-        font-weight: 500;
-        color: rgb(114, 114, 114);
+    .link-cab {    
+        font-style: italic;
+        color: rgb(168, 168, 168);
+        text-decoration: none;
+        display:inline
     }
-}
-.link-cab {    
-    font-style: italic;
-    color: rgb(168, 168, 168);
-    text-decoration: none;
-}
-.button {
-    border-radius: 3 px;
-    margin: 5 px;
-}
-.navbar {
-    background-color: rgba(0, 0, 0, 0.726);
-    
-}
-.left {
-    margin-left: 30px;    
-}
-.roundes {
-    border-radius: 0px 10px 10px 0px;
-    background-color: rgba(255, 255, 255, 0.527);
-}
-.rounds {
-    border-radius: 10px 0px 0px 10px;
-    background-color: rgb(255, 255, 255);
-}
-.lup {
-    width: 75px;
-    margin-left: 0px;
-    height: 30px;
-}
-.imag {
-    height: 25px;
-}
-.search:active {
-    border: 0px solid transparent;
+    .button {
+        border-radius: 3px;
+        margin: 5px;
+    }
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.726);
+        
+    }
+    .left {
+        margin-left: 30px;    
+    }
+    .right--cab {
+        margin-right: -400px;
+    }
+    .roundes {
+        border-radius: 0px 10px 10px 0px;
+        background-color: rgba(255, 255, 255, 0.527);
+    }
+    .rounds {
+        border-radius: 10px 0px 0px 10px;
+        background-color: rgb(255, 255, 255);
+    }
+    .lup {
+        width: 75px;
+        margin-left: 0px;
+        height: 30px;
+    }
+    .imag {
+        height: 25px;
+    }
+    .search:active {
+        border: 0px solid transparent;
 
-}
-.inst {
-    visibility: hidden;
-    transition-duration: 3s;
+    }
+    .inst {
+        visibility: hidden;
+        transition-duration: 3s;
 
-    &:hover {
-        visibility: visible;
-    }   
-}
-li {
-    list-style: none;
+        &:hover {
+            visibility: visible;
+        }   
+    }
+    li {
+        list-style: none;
+    }
+    #botao {
+        display: none;
+    }    
 }
 @media screen and (max-width:768px) {
     .estilo {
@@ -76,14 +78,22 @@ li {
     .link-cab {
         display: none;
     }
-    .quest {
+    #quest {
+        display: none;
+    }
+    #instrumentos {
         display: none;
     }
     button {
         display: none;
     }
+    #botao {
+        display: show;
+        display: flex;
+        justify-content: right;
+    }
+    p {
+        display: none;
+    }
 }
 
-@media (min-width:769px) and (max-width:1080px) {
-    
-}
