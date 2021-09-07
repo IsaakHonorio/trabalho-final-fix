@@ -1,16 +1,34 @@
-.imagem {
-    width: 250px;
-    height:175px; 
-    background-color: rgb(255, 255, 255);
-}
-.order--mean {
-    height: 100%;
-    width: 100%;
-    margin-left: -100px;
+.flex-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap:wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: flex-start;
+    width: 100%;
+    // margin-left: -300px;
+    background-color: white;
+    }
+html {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.img--mean {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    border: 2px;
+}
+.imagem {
+    height: 175px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+
 }
 .anima {
     transition-duration: 1s;
@@ -21,9 +39,6 @@
         z-index: 50;
         overflow:visible
     }
-}
-.round {
-        border-radius: 20px;
 }
 .video-background {
     position: fixed;
@@ -37,22 +52,15 @@
     background-color: rgb(0, 0, 0);
     z-index: -1;
     object-fit: cover;
-  }
-.space {
-    width: 30px;
-    display: inline;
-}
-.right {
-    margin-right: 0px;
 }
 .jedi {
     height: 100%;
     width: 100%;
+    border-radius: 20px;
 }
 .link-mean-div {
     z-index: 2;
 }
-
 .link-mean {
     text-decoration: none;
     font-style: italic;
