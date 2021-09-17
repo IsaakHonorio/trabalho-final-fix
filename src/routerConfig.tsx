@@ -11,6 +11,7 @@ import Edi from "./pages/instrumentos/edicao/index";
 import Rec from "./pages/instrumentos/gravacao/index";
 import Sax from "./pages/instrumentos/sopro/index";
 import Mais from "./pages/instrumentos/mais/index";
+import Bugs from "./pages/saibamais/index1";
 import { Component } from "react";
 
 const routerConfig = [
@@ -78,6 +79,11 @@ const routerConfig = [
     {
         path: '/mais',
         component: Mais,
+        exact: true
+    },
+    {
+        path: '/bugs',
+        component: Bugs,
         exact: true
     }
 ]

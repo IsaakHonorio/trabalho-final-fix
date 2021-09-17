@@ -10,7 +10,7 @@ const Rodape: FC = () => {
                  <div className="text-center">
                  - Criado por 
            
-                     <a className="rodape-a" href="https://github.com/Diaconin265">
+                    <a className="rodape-a" href="https://github.com/Diaconin265">
                         <span className="rodape-link">
                             {" " + nome}
                         </span>  

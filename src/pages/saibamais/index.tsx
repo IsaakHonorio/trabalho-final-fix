@@ -6,7 +6,7 @@ import Video from "../cabecalho/videos/rec.mp4";
 const API: FC = () => {
     return <>
         <div className="video-background">
-                <ReactPlayer 
+            <ReactPlayer 
                 url={Video}
                 width="100%"
                 height="100%"
@@ -15,8 +15,8 @@ const API: FC = () => {
                 muted={true}
                 playing={true}
                 playsinline={true}
-                />
-            </div>
+            />
+        </div>
         <div className="hg-hd">
             Nossa Empresa...<br/>
             Surgiu de uma ideia totalmente aleatoria, porem que já tinha sido pensado mas nunca realizado.<br/>
@@ -28,7 +28,7 @@ const API: FC = () => {
                 <div className="dimen lst-sb">
                     <ul>
                         <li>
-                            <a href="https://www.google.com/search?sxsrf=ALeKk01Hoo7rNPhYNV9Zxmr2cGSksTIFtQ:1628813474745&q=%22Meu+site+esta+bugado,+o+que+fazer?%22&spell=1&sa=X&ved=2ahUKEwi3z8SE26zyAhVEqZUCHWm3DEsQBSgAegQIAhA5&biw=1366&bih=635">
+                            <a href="/bugs">
                                 <h4 className="lst-sz">
                                 "Meu site esta bugando, o que fazer?"
                                 </h4>
@@ -85,6 +85,13 @@ const API: FC = () => {
                         <li>
                             <a href=""><h4 className="lst-sz">
                                 "Qual o sentido desse site?"
+                                </h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://brainly.com.br/tarefa/14362022">
+                                <h4 className="lst-sz">
+                                    "Se a mulher tem sempre razão, o que acontece se duas mulheres discutem?"
                                 </h4>
                             </a>
                         </li>

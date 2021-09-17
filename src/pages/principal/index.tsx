@@ -25,7 +25,7 @@ const Principal: FC = () => {
     ];
     
     return <>
-    <div className="flex-container">
+    <div className="container">
         <div className="video-background">
                 <ReactPlayer 
                 url={Video}
@@ -38,19 +38,19 @@ const Principal: FC = () => {
                 playsinline={true}
                 />
         </div>
-                {categorias.map( (value)=> {
-                    return <>
-                        <div className="img--mean imagem anima">
-                            <a href={value.link} className="">
-                                <div className="">
-                                    <img alt={value.name} className="jedi" src={value.photo} />
-                                    <span className="" > {value.write} </span>
-                                </div> 
-                            </a>
-                        </div>
-                    </>
-                }   )}
+        <div className="row"> 
+            {categorias.map((value)=> {
+                return <>
+                    <a href={value.link} className="border imagem--mean round zoom">
+                        <nav className="link--mean">
+                            <img alt={value.name} className="jedi" src={value.photo} />
+                            <span className="link-mean" > {value.write} </span>
+                        </nav> 
+                    </a>
+                </>
+            }   )}
         </div>
+    </div>
     </>
 };
 
