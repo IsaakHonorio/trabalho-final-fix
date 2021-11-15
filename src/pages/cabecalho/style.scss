@@ -7,6 +7,9 @@
         color: rgb(114, 114, 114);
     }
 }
+.left {
+    margin-left: 30px;    
+}
 .link-cab {    
     font-style: italic;
     color: rgb(168, 168, 168);
@@ -21,9 +24,7 @@
     background-color: rgba(0, 0, 0, 0.726);
     
 }
-.left {
-    margin-left: 30px;    
-}
+
 .right--cab {
     margin-right: -400px;
 }
@@ -61,73 +62,55 @@ li {
 .jedi--cab {
     display: none;
 }
+
+
 @media (min-width:769px) and (max-width:1580px) {
     .estilo {
-        font-size: large;
-        
+        font-size: 30px;
         &-big {
-            font-size: xx-large;
-            font-weight: 500;
-            color: rgb(114, 114, 114);
+            font-size: 50px;
+            font-weight: 250px;
         }
     }
-    .link-cab {    
-        font-style: italic;
-        color: rgb(168, 168, 168);
-        text-decoration: none;
-        display:inline
-    }
-    .button {
-        border-radius: 3px;
-        margin: 5px;
-    }
-    .navbar {
-        background-color: rgba(0, 0, 0, 0.726);
-        
-    }
     .left {
-        margin-left: 30px;    
+        display: none;
     }
-    .right--cab {
-        margin-right: -400px;
+    #quest {
+        display: none;
     }
-    .roundes {
-        border-radius: 0px 10px 10px 0px;
-        background-color: rgba(255, 255, 255, 0.527);
+    #instrumentos {
+        display: none;
     }
-    .rounds {
-        border-radius: 10px 0px 0px 10px;
-        background-color: rgb(255, 255, 255);
+    button {
+        display: none;
     }
-    .lup {
-        width: 75px;
-        margin-left: 0px;
-        height: 30px;
+    #botao {
+        display: flex;
+        justify-content: right;
     }
-    .imag {
-        height: 25px;
+    p {
+        display: none;
     }
-    .search:active {
-        border: 0px solid transparent;
+    .jedi--cab {
+        display: inline;
+        height: 60px;
+        width: 60px;
+        margin-right: 20px;
+    }
+    #nav.active #menu {
+        color:white
+    }
 
+    #name {
+        margin-left: 10px;
     }
-    .inst {
-        visibility: hidden;
-        transition-duration: 3s;
-
-        &:hover {
-            visibility: visible;
-        }   
-    }
-    li {
-        list-style: none;
-    }    
 }
+
 @media screen and (max-width:768px) {
     .estilo {
-        font-size: medium;
+        font-size: 15px;
         &-big {
-            font-size: large;
+            font-size: 25px;
             font-weight: 250px;
         }
     }
@@ -154,6 +137,10 @@ li {
         display: inline;
         height: 30px;
         width: 30px;
+        margin-right: 20px;
+    }
+    #nav.active #menu {
+        color:white
     }
 
     #name {

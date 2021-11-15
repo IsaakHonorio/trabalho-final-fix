@@ -1,10 +1,22 @@
+.video-background {
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+}
 .imagem--mean {
+    display: inline-block;
     margin-left: 45px;
     margin-right: 15px;
     margin-bottom: -70px;
     margin-top: 150px;
-    width: 250px;
-    height:175px; 
+    width: 20%; 
     background-color: rgb(255, 255, 255);
 }
 .zoom {
@@ -33,37 +45,52 @@
 
 
 @media screen and (max-width: 768px) {
-    .imagem {
-        margin-left: 25px;
-        margin-right: 0.8px;
-        margin-bottom: 5.1px;
-        width: 148.75px;
-        height: 104.12px;
-        
+    .imagem--mean {
+        display: inline-block;
+        width: 30%;
+        height: 10%;
+        background-color: rgb(255, 255, 255);
     }
     .anima {
         display:block;
     }
+    .espacamento {
+        margin-bottom: 150px;
+    }
+    .link--mean {
+        font-size: 15px;
+        text-decoration: none;
+        text-shadow: 5px;
+        text-decoration-style:none;
+    }
     .mais {
         font-style: italic;
         font-family: 'MonteCarlo', cursive;
-        font-size: 75px;
+        font-size: 35px;
         text-decoration-line: none;
     }    
 }
 
 
-@media (min-width: 769px) and (max-width: 1080px) {
-    .imagem {
-        //valores são a media do tamanho original e o tamanho de cell
-        margin-left: 30px;
-        margin-right: 1.5px;
-        margin-bottom: 17px;
-        width: 199px;
-        height: 139px;       
+@media (min-width: 769px) and (max-width: 1580px) {
+    .imagem--mean {
+        display: inline-block;
+        width: 35%;
+        height: 10%;
+        margin-left: 10%;
+        background-color: rgb(255, 255, 255);      
+    }
+    .espacamento {
+        margin-bottom: 150px;
     }
     .anima {
         display:block;
+    }
+    .link--mean {
+        font-size: 30px;
+        text-decoration: none;
+        text-shadow: 5px;
+        text-decoration-style:none;
     }
     .mais {
         font-style: italic;

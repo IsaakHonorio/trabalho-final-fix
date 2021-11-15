@@ -25,15 +25,16 @@ const Viola: FC = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 spaces" />
+                    <nav className="viola-space" />
                     
-                    <div className="col-2 imager">
+                    <div id="quad-menor" className="col-2 imager">
                         <a href="https://www.multisom.com.br/violao-artistico-strinberg-sa200c-eletrico-cordas-de-aco-com-afinador-ms-p1090382?pp=/44.4469/&gclid=CjwKCAjw092IBhAwEiwAxR1lRsqkFDVcMb9O1btalZICkvFsrwdEVs-AtAnKL9McJbTqCtR5Zs6gQhoC1eEQAvD_BwE">
                             <img  alt="Violão 1" className="ima" src= {Viola1} />
                         </a>
                     </div>
-                    <div className="col-9 borderes">
+                    <div id="quad-maior" className="col-9 borderes">
                         <a href="https://www.multisom.com.br/violao-artistico-strinberg-sa200c-eletrico-cordas-de-aco-com-afinador-ms-p1090382?pp=/44.4469/&gclid=CjwKCAjw092IBhAwEiwAxR1lRsqkFDVcMb9O1btalZICkvFsrwdEVs-AtAnKL9McJbTqCtR5Zs6gQhoC1eEQAvD_BwE">
-                            <span className="links ">
+                            <span className="links">
                                 Violão Strinberg SA200C Elétrico Cordas de Aço com Afinador Escuro
                             </span>
                         </a>
@@ -51,12 +52,12 @@ const Viola: FC = () => {
                     </div>
 
 
-                    <div className="col-2 imager">
+                    <div id="quad-menor" className="col-2 imager">
                         <a href="https://www.multisom.com.br/violao-artistico-strinberg-sa200c-eletrico-cordas-de-aco-com-afinador-ms-p1090382?pp=/44.4469/&gclid=CjwKCAjw092IBhAwEiwAxR1lRsqkFDVcMb9O1btalZICkvFsrwdEVs-AtAnKL9McJbTqCtR5Zs6gQhoC1eEQAvD_BwE">
                             <img  alt="Violão 2" className="ima" src= {Viola2} />
                         </a>
                     </div>
-                    <div className="col-9 borderes">
+                    <div id="quad-maior" className="col-9 borderes">
                         <a href="https://www.multisom.com.br/violao-artistico-strinberg-sa200c-eletrico-cordas-de-aco-com-afinador-ms-p1090382?pp=/44.4469/&gclid=CjwKCAjw092IBhAwEiwAxR1lRsqkFDVcMb9O1btalZICkvFsrwdEVs-AtAnKL9McJbTqCtR5Zs6gQhoC1eEQAvD_BwE">
                             <span className="links ">
                                 Violão Strinberg SA200C Elétrico Cordas de Aço com Afinador Amadeirada
@@ -76,12 +77,12 @@ const Viola: FC = () => {
                     </div>
 
 
-                    <div className="col-2 imager">
+                    <div id="quad-menor" className="col-2 imager">
                         <a href="https://www.multisom.com.br/violao-artistico-strinberg-sa200c-eletrico-cordas-de-aco-com-afinador-ms-p1090382?pp=/44.4469/&gclid=CjwKCAjw092IBhAwEiwAxR1lRsqkFDVcMb9O1btalZICkvFsrwdEVs-AtAnKL9McJbTqCtR5Zs6gQhoC1eEQAvD_BwE">
                             <img  alt="Violão 3" className="ima" src= {Viola3} />
                         </a>
                     </div>
-                    <div className="col-9 borderes">
+                    <div id="quad-maior" className="col-9 borderes">
                         <a href="https://www.multisom.com.br/violao-artistico-strinberg-sa200c-eletrico-cordas-de-aco-com-afinador-ms-p1090382?pp=/44.4469/&gclid=CjwKCAjw092IBhAwEiwAxR1lRsqkFDVcMb9O1btalZICkvFsrwdEVs-AtAnKL9McJbTqCtR5Zs6gQhoC1eEQAvD_BwE">
                             <span className="links ">
                                 Violão Strinberg SA200C Elétrico Cordas de Aço com Afinador Amaderada Clara
@@ -101,12 +102,12 @@ const Viola: FC = () => {
                     </div>
 
 
-                    <div className="col-2 imager">
+                    <div id="quad-menor" className="col-2 imager">
                         <a href="https://www.multisom.com.br/violao-yamaha-slg200n-silent-vazado-eletrico-cordas-nylon-com-afinador-e-bag-ms-p1090178?pp=/44.2895/&gclid=CjwKCAjw092IBhAwEiwAxR1lRuuo1xCJSaMOLPlUApGluksnxOBcVz9QRbc7Y_dZdd3gz-ra62xVPhoCnjoQAvD_BwE">
                             <img  alt="Violão 4" className="ima" src= {Viola4} />
                         </a>
                     </div>
-                    <div className="col-9 borderes">
+                    <div id="quad-maior" className="col-9 borderes">
                         <a href="https://www.multisom.com.br/violao-yamaha-slg200n-silent-vazado-eletrico-cordas-nylon-com-afinador-e-bag-ms-p1090178?pp=/44.2895/&gclid=CjwKCAjw092IBhAwEiwAxR1lRuuo1xCJSaMOLPlUApGluksnxOBcVz9QRbc7Y_dZdd3gz-ra62xVPhoCnjoQAvD_BwE">
                             <span className="links ">
                                 Violão Acustico Aço Azul La-40e Bl
@@ -126,12 +127,12 @@ const Viola: FC = () => {
                     </div>
 
 
-                    <div className="col-2 imager ">
+                    <div id="quad-menor" className="col-2 imager ">
                         <a href="https://www.americanas.com.br/produto/1611919948?opn=YSMESP&sellerid=19789633000159">
                             <img  alt="Violão 5" className="ima" src= {Viola5} />
                         </a>
                     </div>
-                    <div className="col-9 borderes">
+                    <div id="quad-maior" className="col-9 borderes">
                         <a href="https://www.americanas.com.br/produto/1611919948?opn=YSMESP&sellerid=19789633000159">
                             <span className="links ">
                                 Violão Yamaha SLG200N Silent Vazado Elétrico Cordas de Nylon com Afinador e Bag

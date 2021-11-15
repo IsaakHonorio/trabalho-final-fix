@@ -1,76 +1,129 @@
-.alo {
-    margin-bottom: 50px;
-    height: 200px;
-    border-radius: 10px;  
-}
-.ima {
-    height: 100%;
-    width: 100%;
-}
-.video-background {
-    position: absolute;
-    width: 100%;
-    height: 110%;
-    left: 50%;
-    right: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    min-height: 100vh;
-    z-index: -1;
-    object-fit: cover;
-  }
-.imager {
-    height: 200px;
-    border-radius: 10px 0px 0px 10px;
-    margin-bottom: 30px;    
-    background-color: rgb(255, 255, 255);
-    border: 3px; 
-    border-style: groove;
-    border-right: none; 
-    border-color:rgb(83, 83, 83);
-}
-.borderes {
-    height: 200px;
-    border-radius: 0px 10px 10px 0px;
-    margin-bottom: 30px;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.452);
-    border: 3px; 
-    border-style: groove;
-    border-left: hidden;
-    border-color:rgb(83, 83, 83);
-}
-.ls {
-    margin-bottom: 60px;
-}
-.spaces {
-    height: 150px;
-}
-.links {
-    // margin-top: 50px;
-    padding-top: 20px;
-    padding-left: -50px;
-    font-size: 25px;
-    font-style: italic;
-    color:rgb(255, 255, 255);
-    text-decoration-line: none;
-    display: inline-block;
-}
-.desc {
-    // margin-top: 100px;
-    display: block;
-    font-size: 20px;
-    color:rgb(170, 170, 170)
-}
-.valores {
-    padding: 30px 0px 0px 600px;
-    color:rgb(0, 0, 0);
-    &-value {
-        color: rgb(77, 143, 39);
-        padding-left: 7px;
+    .alo {
+        margin-bottom: 50px;
+        height: 200px;
+        border-radius: 10px;  
     }
-}
-.end {
-    margin-bottom: 90px;
-    color: rgb(59, 59, 59);
-}
+    .ima {
+        height: 100%;
+        width: 100%;
+    }
+    .video-background {
+        position: absolute;
+        width: 100%;
+        height: 110%;
+        left: 50%;
+        right: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        min-height: 100vh;
+        z-index: -1;
+        object-fit: cover;
+    }
+    .imager {
+        height: 20%;
+        border-radius: 10px 0px 0px 10px;
+        margin-bottom: 30px;    
+        background-color: rgb(255, 255, 255);
+        border: 3px; 
+        border-style: groove;
+        border-right: none; 
+        border-color:rgb(83, 83, 83);
+    }
+    .borderes {
+        height: 20%;
+        border-radius: 0px 10px 10px 0px;
+        margin-bottom: 30px;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.452);
+        border: 3px; 
+        border-style: groove;
+        border-left: hidden;
+        border-color:rgb(83, 83, 83);
+    }
+    .ls {
+        margin-bottom: 60px;
+    }
+    .spaces {
+        height: 150px;
+    }
+    .links {
+        // margin-top: 50px;
+        padding-top: 20px;
+        padding-left: -50px;
+        font-size: 25px;
+        font-style: italic;
+        color:rgb(255, 255, 255);
+        text-decoration-line: none;
+        display: inline-block;
+    }
+    .desc {
+        // margin-top: 100px;
+        display: block;
+        font-size: 20px;
+        color:rgb(170, 170, 170)
+    }
+    .valores {
+        padding: 30px 0px 0px 600px;
+        color:rgb(0, 0, 0);
+        &-value {
+            color: rgb(77, 143, 39);
+            padding-left: 7px;
+        }
+    }
+    .end {
+        margin-bottom: 90px;
+        color: rgb(59, 59, 59);
+    }
+    @media (min-width: 769px) and (max-width: 1580px) {
+        .viola-space {
+            margin-top: 16%;
+        }
+        .col-9 {
+            width: 80%;
+        }
+        .col-2 {
+            width:20%;
+        }
+        .alo {
+            display: none;  
+        }
+        .imager {
+            height: 10%;
+        }
+        .borderes {
+            height: 10%;
+        }
+        .ls {
+            display: none;
+        }
+        .spaces {
+            display: none;
+        }
+        .desc {
+            display: none;
+        }
+        .end {
+            margin-bottom: 90px;
+            color: rgb(59, 59, 59);
+        }
+        .links {
+            display: none;
+        }
+        h3 {
+            // font-size: medium;
+            display: none;
+        }
+        .valores {
+            color:rgb(0, 0, 0);
+            &-value {
+                color: rgb(77, 143, 39);
+            }
+        }
+
+    }
+
+    @media screen and (max-width: 768px) {
+        .links {
+            display: none;
+        }  
+    }
