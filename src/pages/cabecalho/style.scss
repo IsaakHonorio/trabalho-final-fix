@@ -64,7 +64,7 @@ li {
 }
 
 
-@media (min-width:769px) and (max-width:1580px) {
+@media (min-width:769px) and (max-width:1203px) {
     .estilo {
         font-size: 30px;
         &-big {
@@ -113,6 +113,22 @@ li {
             font-size: 25px;
             font-weight: 250px;
         }
+    }
+    .navigation {
+        position: absolute;
+        top:0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        z-index: 4;
+        flex-direction: column;
+    }
+    .navigation li {
+        list-style: none;
     }
     .left {
         display: none;

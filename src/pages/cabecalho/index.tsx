@@ -9,15 +9,15 @@ import Menu from "../../imagens do projeto/main_images/menu.jpg";
 const Cabecalho: FC = () => {
     const openMenu = () => {
         // codigo que no video sobre fazer menu mobile de javascript
-        //     function myFunction() {
-        //         let menu = useState("instrumentos");
+            // function Openmymenu() {
+            //     let menu = document.querySelector('.navigation');
                 
-        //         if ( menu.style.display === "block") {
-        //           menu.style.display = "none";
-        //         } else {
-        //           menu.style.display = "block";
-        //         }
-        //      }
+            //     const Open: FC = () => {
+            //         menu = onclick(function() {
+            //             toggle('active')
+            //         })
+            //     }
+            //  }
         };
     return <>
             <div className="container ">
@@ -32,9 +32,9 @@ const Cabecalho: FC = () => {
                         </span>                        
                     </div>
                     
-                    <ul id="instrumentos" className=" container-fluid left col-3 ">
+                    <ul className=" container-fluid left navigation col-3 ">
 
-                        <nav className="col-1 d-inline" /> 
+                        <nav id="instrumentos" className="col-1 d-inline" /> 
                         
                         <li>
                             <a href="./" className="link-cab">
@@ -42,7 +42,7 @@ const Cabecalho: FC = () => {
                             </a>
                         </li>
                         
-                        <nav className="d-inline">|</nav>
+                        <nav id="instrumentos" className="d-inline">|</nav>
                         
                         <li>
                             <a href="./git" className="link-cab ">
@@ -50,14 +50,14 @@ const Cabecalho: FC = () => {
                             </a>
                         </li>
                         
-                        <nav className="d-inline"> | </nav>
+                        <nav id="instrumentos" className="d-inline"> | </nav>
                         
                         <li>
                             <a href="./cs" className="link-cab ">
                                 Cursos 
                             </a>
                         </li>
-                        <nav className="d-inline"> | </nav>
+                        <nav id="instrumentos" className="d-inline"> | </nav>
                         
                         <li>
                             <a href="./saiba" className="link-cab ">

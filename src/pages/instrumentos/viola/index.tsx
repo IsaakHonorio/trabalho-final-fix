@@ -10,7 +10,7 @@ import Video from "../../cabecalho/videos/Guitarist.mp4";
 
 const Viola: FC = () => {
     return <>
-        <div className="video-background">
+        <div className="video-background alo">
                 <ReactPlayer 
                 url={Video}
                 width="100%"
@@ -22,7 +22,7 @@ const Viola: FC = () => {
                 playsinline={true}
                 />
             </div>
-            <div className="container">
+            <div className="container container-md container-sm">
                 <div className="row">
                     <div className="col-12 spaces" />
                     <nav className="viola-space" />
@@ -45,7 +45,7 @@ const Viola: FC = () => {
                             <h3>
                                 Valor: 
                                 <span className="valores-value" >
-                                    R$ 4.749,21
+                                R$ 799,11
                                 </span>
                             </h3>
                         </div>
@@ -70,7 +70,7 @@ const Viola: FC = () => {
                             <h3>
                                 Valor: 
                                 <span className="valores-value" >
-                                    R$ 4.749,21
+                                    R$ 799,11
                                 </span>
                             </h3>
                         </div>
@@ -95,7 +95,7 @@ const Viola: FC = () => {
                             <h3>
                                 Valor: 
                                 <span className="valores-value" >
-                                    R$ 4.749,21
+                                R$ 799,11
                                 </span>
                             </h3>
                         </div>
@@ -145,7 +145,7 @@ const Viola: FC = () => {
                             <h3>
                                 Valor: 
                                 <span className="valores-value" >
-                                    R$ 4.749,21
+                                    R$ 665,50
                                 </span>
                             </h3>
                         </div>

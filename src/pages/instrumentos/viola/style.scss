@@ -1,8 +1,3 @@
-    .alo {
-        margin-bottom: 50px;
-        height: 200px;
-        border-radius: 10px;  
-    }
     .ima {
         height: 100%;
         width: 100%;
@@ -20,7 +15,7 @@
         object-fit: cover;
     }
     .imager {
-        height: 20%;
+        height: 190px;
         border-radius: 10px 0px 0px 10px;
         margin-bottom: 30px;    
         background-color: rgb(255, 255, 255);
@@ -30,7 +25,7 @@
         border-color:rgb(83, 83, 83);
     }
     .borderes {
-        height: 20%;
+        height: 190px;
         border-radius: 0px 10px 10px 0px;
         margin-bottom: 30px;
         display: inline-block;
@@ -60,11 +55,11 @@
         // margin-top: 100px;
         display: block;
         font-size: 20px;
-        color:rgb(170, 170, 170)
+        color: rgb(185, 184, 184);
     }
     .valores {
         padding: 30px 0px 0px 600px;
-        color:rgb(0, 0, 0);
+        color:rgb(121, 121, 121);
         &-value {
             color: rgb(77, 143, 39);
             padding-left: 7px;
@@ -74,24 +69,18 @@
         margin-bottom: 90px;
         color: rgb(59, 59, 59);
     }
-    @media (min-width: 769px) and (max-width: 1580px) {
+    @media (min-width:992px) and (max-width:1203) {
         .viola-space {
-            margin-top: 16%;
-        }
-        .col-9 {
-            width: 80%;
-        }
-        .col-2 {
-            width:20%;
-        }
-        .alo {
-            display: none;  
+            margin-top: 24%;
         }
         .imager {
-            height: 10%;
+            height: 200px;
+            width: 200px;
         }
         .borderes {
-            height: 10%;
+            height: 200px;
+            width: 650px;
+            display: inline-block;
         }
         .ls {
             display: none;
@@ -100,21 +89,65 @@
             display: none;
         }
         .desc {
-            display: none;
+            display: block;
+            font-size: smaller;
         }
         .end {
             margin-bottom: 90px;
             color: rgb(59, 59, 59);
         }
         .links {
-            display: none;
+            display:block;
+            font-size: medium;
         }
         h3 {
-            // font-size: medium;
-            display: none;
+            font-size: smaller;
         }
         .valores {
             color:rgb(0, 0, 0);
+            font-size: smaller;
+            &-value {
+                color: rgb(77, 143, 39);
+            }
+        }
+    }
+    @media (min-width: 769px) and (max-width: 991px) {
+        .viola-space {
+            margin-top: 24%;
+        }
+        .imager {
+            height: 150px;
+            width: 150px;
+        }
+        .borderes {
+            height: 150px;
+            width: 500px;
+            display: inline-block;
+        }
+        .ls {
+            display: none;
+        }
+        .spaces {
+            display: none;
+        }
+        .desc {
+            display: block;
+            font-size: smaller;
+        }
+        .end {
+            margin-bottom: 90px;
+            color: rgb(59, 59, 59);
+        }
+        .links {
+            display:block;
+            font-size: medium;
+        }
+        h3 {
+            font-size: smaller;
+        }
+        .valores {
+            color:rgb(0, 0, 0);
+            font-size: smaller;
             &-value {
                 color: rgb(77, 143, 39);
             }
@@ -122,8 +155,60 @@
 
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 423px) {
         .links {
+            font-size: smaller;
+        }
+        .desc {
             display: none;
-        }  
+        }
+        .valores {
+            display: none;
+        }
+        .imager {
+            height: 100px;
+            width: 100px;
+        }
+        .borderes {
+            height: 100px;
+            width: 200px;
+        }
+    }
+    @media (min-width:424px) and (max-width:523px) {
+        .links {
+            font-size: medium;
+        }
+        .desc {
+            display: none;
+        }
+        .valores {
+            display: none;
+        }
+        .imager {
+            height: 150px;
+            width: 150px;
+        }
+        .borderes {
+            height: 150px;
+            width: 250px;
+        }
+    }
+    @media (min-width:524px) and (max-width:768px) {
+        .links {
+            font-size: larger;
+        }
+        .desc {
+            display: none;
+        }
+        .valores {
+            display: none;
+        }
+        .imager {
+            height: 200px;
+            width: 200px;
+        }
+        .borderes {
+            height: 200px;
+            width: 300px;
+        }
     }
