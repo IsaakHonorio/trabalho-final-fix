@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Children } from "react";
 import Rodape from "./pages/rodape"
 import Cabecalho from "./pages/cabecalho";
 import './App.css';
